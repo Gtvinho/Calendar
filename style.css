@@ -1,0 +1,62 @@
+
+    /* Estilos para o pop-up */
+    #colorPopup {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 20px;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        z-index: 9999;
+    }
+
+    .color-button {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin: 5px;
+        cursor: pointer;
+        border: 1px solid #000;
+    }
+
+    /* Estilos para as células de data */
+    .date-cell {
+        cursor: pointer;
+    }
+    aside {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 20px;
+      
+    }
+
+    .color-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+
+    .color-box {
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+      border: 1px solid #000;
+
+    }
+    .container {
+      display: flex;
+    }
+    #calendario {
+      flex: 1;
+    }
+    aside {
+      width: 200px; /* Defina a largura desejada para a legenda */
+      margin-left: 20px;
+    }
+    input::placeholder{ 
+        color: black;
+    }
